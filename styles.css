@@ -1,0 +1,154 @@
+/* Base Reset & Font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafc;
+  color: #2e2e2e;
+  line-height: 1.6;
+}
+
+/* Container Styling */
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  margin-bottom: 0.3em;
+}
+
+header h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #4a4a4a;
+  font-weight: normal;
+  margin-bottom: 1em;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background: #e0e0e0;
+  margin: 20px 0;
+}
+
+/* Links */
+a {
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #003f80;
+}
+
+/* Main & Section Text */
+main p, section p {
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-top: 2em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+section h3 {
+  font-size: 1.2rem;
+  color: #34495e;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* Lists */
+ul {
+  padding-left: 25px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #1e1e2f;
+  color: #5f51fa;
+  text-align: center;
+  padding: 30px 10px;
+  margin-top: 50px;
+  font-size: 0.95rem;
+}
+
+footer a {
+  color: #a99fdf;
+}
+
+footer a:hover {
+  color: #8fffe0;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+.social-icons img {
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header h2 {
+    font-size: 1rem;
+  }
+
+  section h2 {
+    font-size: 1.3rem;
+  }
+
+  section h3 {
+    font-size: 1rem;
+  }
+
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+}
